@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Site language -->
+<html lang="en">
+<head>
+    <!-- Site settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Site title -->
+    <title>Random color generator (HEX)</title>
+
+    <!-- SEO Informations -->
+    <meta name="description" content="Random HEX color code generator.">
+    <meta name="keywords" content="random hex color picker generator background">
+    <meta name="author" content="@Revku">
+
+    <!-- Font (fonts.google.com) (poppins by default) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS styles -->
+    <link rel="stylesheet" href="./src/styles/css/index.css">
+</head>
+<body>
+    <div class="box" id="box">
+        <h1 class="title">Random Color Generator</h1>
+        <section class="color">
+            <div class="preview" id="preview"></div>
+            <input readonly type="text" class="input" id="hex" placeholder="Color code" value="#b816c9">
+            <button class="btn" id="copy_btn">Copy</button>
+        </section>
+
+        <button class="btn" id="gen_button">Generate random color</button>
+
+        <p class="dev" id="dev">View as developer</p>
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="./src/scripts/index.js"></script>
+</body>
+</html>

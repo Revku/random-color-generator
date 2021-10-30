@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.box {
+  background-color: #1a1a1a;
+  color: white;
+  width: 450px;
+  padding: 35px;
+  border-radius: 5px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.preview {
+  width: 40px;
+  height: 40px;
+  background-color: #b816c9;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input {
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 5px;
+}
+
+.btn {
+  height: 40px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #266cde;
+  color: white;
+  cursor: pointer;
+}
+
+#gen_button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.dev {
+  opacity: 0.80;
+  font-size: 14px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .box {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    padding: 10px;
+  }
+  .input {
+    width: 150px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
